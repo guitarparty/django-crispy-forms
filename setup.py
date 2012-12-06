@@ -26,7 +26,7 @@ setup(
     author_email='miguel.araujo.perez@gmail.com',
     url='http://github.com/maraujop/django-crispy-forms',
     license='MIT',
-    packages=find_packages(),
+    packages=['crispy_forms', 'crispy_forms.templatetags', 'crispy_forms.tests'],
     include_package_data=True,
     zip_safe=False,
 )
